@@ -1,0 +1,8 @@
+.contenedorCardss{
+    display: grid;
+    max-width: 70%;
+    place-items: center;
+    grid-template-columns: repeat( auto-fit, minmax(330px, 1fr) );
+    gap: 50px;
+    margin-top: 60px;
+}

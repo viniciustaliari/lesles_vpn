@@ -1,0 +1,42 @@
+.brand{
+    width: 190px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedorBrands{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.netflix{
+    background-image: url('../../img/netflix.png');
+    background-size: 100%;
+}
+
+.reddit{
+    background-image: url('../../img/reddit.png');
+    background-size: 80%;
+}
+
+.amazon{
+    background-image: url('../../img/amazon.png');
+    background-size: 130%;
+}
+
+.discord{
+    background-image: url('../../img/discord.png');
+}
+
+.spotify{
+    background-image: url('../../img/spotify.png');
+    background-size: 80%;
+}

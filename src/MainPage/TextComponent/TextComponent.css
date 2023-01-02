@@ -1,0 +1,57 @@
+:root {
+    --main-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --secondary-color: #F53855;
+    --font-color: #0B132A;
+;
+}
+
+
+.titulo{
+    font-family: var(--main-font-family);
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-family: var(--main-font-family);
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.boton{
+    font-family: var(--main-font-family);
+    font-size: 17px;
+    font-weight: 600;
+    width: 250px;
+    height: 60px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0px 29px 27px -6px rgba(245,56,85,0.47);
+    -webkit-box-shadow: 0px 29px 27px -6px rgba(245,56,85,0.47);
+    -moz-box-shadow: 0px 29px 27px -6px rgba(245,56,85,0.47);
+}
+
+.boton:hover{
+    animation-name: animate-boton;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes animate-boton {
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.1;
+    }
+}

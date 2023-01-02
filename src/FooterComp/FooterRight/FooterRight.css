@@ -1,0 +1,35 @@
+.contenedor-rightFooter{
+    display: flex;
+    gap: 126px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-rightFooter ul li{
+    list-style: none;
+}
+
+.contenedor-rightFooter ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedor-rightFooter ul li  a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #4F5665;
+    font-weight: 500;
+}
+
+.titulo-footer strong{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+@media (max-width: 691px) {
+    .contenedor-rightFooter{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,68 @@
+:root {
+    --main-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --secondary-color: #F53855;
+    --font-color: #0B132A;
+}
+
+.hijo{
+    width: 98%;
+    height: 60%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second{
+    border-left: 2px rgba(0, 0, 0, 0.123) solid;
+    border-right: 2px rgba(0, 0, 0, 0.123) solid;
+}
+
+.number{
+    color: var(--font-color);
+    font-family: var(--main-font-family);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.text{
+    color: #0b132a9d;
+    font-family: var(--main-font-family); 
+    font-size: 20px;
+    align-self: center;
+    padding-left: 18px;
+}
+
+.image{
+    height: 55px;
+    width: 55px;
+    align-self: center;
+    margin-left: auto;
+    padding-right: 18px;
+    background-repeat: no-repeat;
+}
+
+.first-child-image{
+    background-image: url('../../img/user.png');
+}
+
+.second-child-image{
+    background-image: url('../../img/location.png');
+}
+
+.third-child-image{
+    background-image: url('../../img/server.png');
+}
+
+@media (max-width: 1063px) {
+    .second{
+        border-top: 2px rgba(0, 0, 0, 0.123) solid;
+        border-bottom: 2px rgba(0, 0, 0, 0.123) solid;
+        border-left: none;
+        border-right: none;
+        height: 90%;
+    }
+    .hijo{
+        width: 100%;
+    }
+}

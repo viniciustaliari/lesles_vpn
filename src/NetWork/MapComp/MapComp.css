@@ -1,0 +1,11 @@
+.mapComp{
+    background-image: url('../../img/mapa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 1060px;
+    min-width: 375px;
+    height: 537.77px;
+    margin-left: auto;
+    margin-right: auto;
+}
